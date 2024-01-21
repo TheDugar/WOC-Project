@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShipNoodle</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="https://kit.fontawesome.com/a94e593273.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <img src="a-loading-dock-.png" id="Backg">
+    <div class="form-box">
+      <h1 id="title">Register User</h1>
+      <form id="MainForm">
+
+        <div class="input-group">
+          <div class="input-field" >
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name" id="nameField">
+          </div>
+          <div class="input-field" >
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email" id="emailInp">
+          </div>
+          <div class="input-field" >
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Password" id="passwordInp">
+          </div>
+          <div class="input-field" >
+            <i class="fa-solid fa-cake-candles"></i>
+            <input type="date" placeholder="Date Of Birth" id="dobInp">
+          </div>
+
+        </div>
+
+        <div class="btn-field">
+          <button type="submit" id="signupBtn">Create New User</button>
+          <button type="button" class="disable" id="signinBtn">Log In</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+
+  <script src="./reg_script.js" type="module"></script>
+
+</body>
+
+</html>
